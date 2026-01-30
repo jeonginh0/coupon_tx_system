@@ -1,0 +1,10 @@
+package jeonginho.coupon.exception;
+
+public enum ErrorCode {
+    COUPON_NOT_FOUND,
+    COUPON_STOCK_NOT_FOUND,
+    COUPON_NOT_ISSUABLE_TIME,
+    COUPON_OUT_OF_STOCK,
+    DUPLICATE_COUPON_ISSUE,
+    COUPON_ISSUE_RETRY_FAILED
+}
